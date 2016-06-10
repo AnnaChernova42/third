@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AML UI Autotests">
+
+    <test name="Вход" preserve-order="true">
+        <classes>
+            <class name="su.jet.webautotests.UITests.OperationInfoTabUITest"/>
+            <class name="su.jet.webautotests.UITests.PayerTabUITest"/>
+            <class name="su.jet.webautotests.UITests.RecipientTabUITest"/>
+            <class name="su.jet.webautotests.UITests.GuarantorTabUITest"/>
+            <class name="su.jet.webautotests.UITests.PayerAgentTabUITest"/>
+            <class name="su.jet.webautotests.UITests.RecipientAgentTabUITest"/>
+        </classes>
+    </test>
+
+    <test name="Работа с деталями операции" preserve-order="true">
+        <classes>
+            <class name="su.jet.webautotests.WorkWithTransactionDetailsTests"/>
+        </classes>
+    </test>
+
+    <!--
+    <test name="ЭФ списка оповещений" preserve-order="true">
+        <classes>
+            <class name="su.jet.webautotests.SearchTests"/>
+        </classes>
+    </test>
+
+    <test name="Вход" preserve-order="true">
+        <classes>
+            <class name="su.jet.webautotests.CheckFullNameTest"/>
+        </classes>
+    </test>
+
+    <test name="Переходы статусов алертов" preserve-order="true">
+        <classes>
+            <class name="su.jet.webautotests.TransitionsByStatusTests"/>
+        </classes>
+    </test>
+    -->
+
+    <!--
+    <test name="ЭФ сообщения" preserve-order="true">
+        <classes>
+            <class name="su.jet.webautotests.VerifyFieldsByExcelFileTest"/>
+        </classes>
+    </test>
+    -->
+</suite>

@@ -1,0 +1,1 @@
+Требования к настройке браузеров IE: https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration
